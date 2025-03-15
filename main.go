@@ -5,6 +5,7 @@ import (
 	"hackerrank-go-practices/breaking_the_records"
 	"hackerrank-go-practices/camel_case_four"
 	"hackerrank-go-practices/divisible_sum_pairs"
+	"hackerrank-go-practices/lonely_integer"
 	"hackerrank-go-practices/matching_strings"
 )
 
@@ -25,4 +26,7 @@ func main() {
 	fmt.Println("Ejercicio Matching Strings")
 	valuesStringMarch := matching_strings.MatchingStrings([]string{"ab", "ab", "abc"}, []string{"ab", "abc", "bc"})
 	fmt.Println(valuesStringMarch)
+	fmt.Println("Ejercicio Lonely Integer")
+	valuesLonelyInteger := lonely_integer.Lonelyinteger([]int32{1, 2, 3, 4, 3, 2, 1})
+	fmt.Println(valuesLonelyInteger)
 }
